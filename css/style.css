@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Lora:wght@400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  background-color: #000;
+}
+
+.header-content {
+  display: flex;
+  align-items: center;
+  padding: 15px 0px 13px 40px;
+}
+
+nav ul {
+  margin-left: 20px;
+  display: flex;
+}
+
+li {
+  list-style: none;
+  padding: 25px;
+  font-family: "Lora";
+  font-weight: 400;
+}
+
+li a {
+  color: #b09a81;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.main {
+  background-image: url("/images/bg_1_optimized.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+}
+
+.main-content {
+  padding: 227px 288px 513px 221px;
+}
+
+.header-in-main {
+  color: #fff;
+  font-family: "Lora";
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 80px;
+}
+
+.desc-in-maim {
+  color: #fff;
+  font-family: "Lora";
+  font-weight: 400;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 31px;
+  margin-top: 65px;
+}
+
+.btn-in-main {
+  background-color: #b09a81;
+  padding: 17px 56px 17px 56px;
+  border-radius: 12px;
+  border: 0;
+  margin-top: 70px;
+}
+
+.btn-in-main a {
+  font-family: "Lora";
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 26px;
+  color: #462929;
+  text-decoration: none;
+}
